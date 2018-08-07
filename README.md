@@ -18,6 +18,11 @@ mvn test -Dcucumber.options="src/test/features/gomaji.feature"
 ```
 mvn test -Dcucumber.options="--tags @android_reinstall"
 ```
+* Only test Web tag.
+```
+mvn test -Dcucumber.options="--tags @web"
+```
+
 
 ## Screenshot
 ![2018-08-07 3 05 00](https://user-images.githubusercontent.com/3991213/43759956-5e8aa3b4-9a53-11e8-8882-82738a6aa0fa.png)
