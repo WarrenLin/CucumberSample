@@ -16,7 +16,7 @@
 #""
 ## (Comments)
 #Sample Feature Definition Template
-@gomaji
+@gomaji_checkout
 Feature: 結帳
   RS 商品結帳功能
 

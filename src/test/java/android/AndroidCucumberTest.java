@@ -6,7 +6,7 @@ import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(tags = {"@android_reinstall"}, plugin = {"pretty", "html:target/cucumber-reports"}, 
+@CucumberOptions(tags = {"@android_reinstall"}, plugin = {"pretty"}, 
 glue = {"android", "hook"},
 monochrome = true,
 features = {"src/test/resources/features"})
